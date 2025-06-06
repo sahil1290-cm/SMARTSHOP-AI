@@ -143,19 +143,3 @@ Main tables include:
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please review our contributing guidelines before submitting any pull requests.
-
-
-## 📚 Additional Resources
-
-- 📄 Detailed architecture and implementation: [Technical Blog Post](https://medium.com/@sametarda.dev/building-an-ai-powered-e-commerce-recommendation-system-a-comprehensive-overview-c89613a0777d)  
-- 📖 API Documentation: Available at the `/docs` endpoint  
-- 🧩 Frontend Component Documentation: Available in the UI directory  
-
-
-
-
-## 📧 Contact
-
-[LinkedIn](https://www.linkedin.com/in/ardasamet/)
-

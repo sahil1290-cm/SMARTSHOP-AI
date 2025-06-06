@@ -1,23 +1,7 @@
 # Smart Shop AI
 ### 🛍️ AI-Powered E-Commerce Recommendation System
 
-![](https://i.ibb.co/Hdr8v9g/Untitled-diagram-2024-10-27-193328.png)
 
-
-A sophisticated recommendation system to provide personalized product recommendations based on user behavior and preferences.
-
-## 🌟 Key Features
-
--  Real-time personalized product recommendations  
--  User behavior tracking and analysis  
--  Feedback collection system  
--  Rating system with visual star display  
--  Caching mechanism for improved performance  
--  Timeout handling for API requests  
--  Error handling and user feedback  
--  Responsive UI design  
-
-##  Architecture
 
 
 ![](https://i.ibb.co/QvPCNvZ/Untitled-diagram-2024-10-27-202649.png)
@@ -93,53 +77,6 @@ http://localhost:8000/debug/generate-data
 ```
 This will return a test user ID to test the application.
 
-### 🔑 Key Endpoints
-
-- `GET /recommendations/{user_id}` - Fetch personalized recommendations  
-- `POST /feedback` - Submit recommendation feedback  
-- `GET /debug/generate-data` - Generate test data  
-- `GET /debug/users` - Fetch sample users  
-- `GET /debug/products` - Fetch sample products  
-
-### 🧪 Testing the Application
-
-1. Generate test data via the `/debug/generate-data` endpoint.  
-2. Copy the returned `test_user_id`.  
-3. Visit `http://localhost:3000`.  
-4. Enter the test user ID to see personalized recommendations.  
-5. Interact with the recommendations and provide feedback.  
-
-## 📊 System Components
-
-1. **User Behavior Tracking**  
-   - Captures user interactions  
-   - Stores behavioral data for analysis  
-
-2. **Recommendation Engine**  
-   - Processes user behavior data  
-   - Generates personalized recommendations  
-   - Uses machine learning algorithms  
-
-3. **Feedback System**  
-   - Collects user feedback  
-   - Manages ratings and reviews  
-   - Ensures continuous improvement  
-
-## 🛠️ Technical Details
-
-### 🗂️ Database Schema  
-Main tables include:  
--  Products  
--  Users  
--  UserBehavior  
--  RecommendationFeedback  
-
-## 📈 Performance Optimizations
-
--  Caching mechanism for faster responses  
--  Timeout handling (10 seconds)  
--  Optimized database queries  
--  Frontend performance improvements  
 
 ## 🤝 Contributing
 
